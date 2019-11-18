@@ -16,7 +16,7 @@ while True:
     pass
 
   dados = int(float(ser.readline()))  # firmware deve ter um delay de pelo menos 100ms entre cada envio
-  print dados
+  print(dados)
   ax.clear()
   ax.set_xlim([0, eixo_x])  # faixa do eixo horizontal
   ax.set_ylim([0, 50])  # faixa do eixo vertical
